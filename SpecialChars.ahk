@@ -41,7 +41,7 @@ oGui := Gui("+AlwaysOnTop", "SpecialChars")
 oGui.MarginX := 8
 oGui.MarginY := 8
 oGui.SetFont("s12", "Consolas")
-oGui.OnEvent("Escape", (*) => ExitApp)
+oGui.OnEvent("Escape", (*) => ExitApp())
 sOptions := ""
 Loop aChars.Length
 {
